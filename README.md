@@ -20,6 +20,14 @@ to install any modules, as there are no external NPM-dependencies.
 Additionally, you need to install WireGuard on the host you're executing this script.
 The script will call the `wg` command internally to generate all secrets.
 
+## Usage
+
+Just execute the script with the json-config file as first argument, like:
+
+```sh
+node configgenerator.js exampleconfig.json
+```
+
 ## Configuration
 
 The configuration file is just a simple JSON-object containing the description for each
