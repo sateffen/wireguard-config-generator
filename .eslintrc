@@ -1,0 +1,25 @@
+{
+    "env": {
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "extends": [
+        "eslint:recommended",
+        "google"
+    ],
+    "rules": {
+        "max-len": "off",
+        "brace-style": [
+            "error",
+            "stroustrup"
+        ],
+        "indent": [
+            "error",
+            4
+        ],
+        "prefer-promise-reject-errors": "off",
+        "prefer-rest-params": "off"
+    }
+}

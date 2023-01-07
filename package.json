@@ -1,0 +1,13 @@
+{
+  "name": "wireguard-config-generator",
+  "version": "0.0.0",
+  "main": "configgenerator.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./configgenerator.js"
+  },
+  "devDependencies": {
+    "eslint": "~8.31.0",
+    "eslint-config-google": "~0.14.0"
+  }
+}

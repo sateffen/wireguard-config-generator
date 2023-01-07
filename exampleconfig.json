@@ -1,0 +1,30 @@
+{
+    "__config": {
+        "listenPort": 51820,
+        "outputDir": "output/",
+        "fullMesh": false,
+        "clientDNS": "10.0.0.1"
+    },
+    "server1": {
+        "Address": "10.0.0.1/24",
+        "AllowedIPs": "10.0.0.1/32",        
+        "Endpoint": "1.2.3.4"
+    },
+    "server2": {
+        "Address": "10.0.0.2/24",
+        "AllowedIPs": "10.0.0.2/32",        
+        "Endpoint": "1.2.3.5"
+    },
+    "client1": {
+        "Address": "10.0.0.10/24",
+        "AllowedIPs": "10.0.0.10/32"
+    },
+    "client2": {
+        "Address": "10.0.0.11/24",
+        "AllowedIPs": "10.0.0.11/32"
+    },
+    "client3": {
+        "Address": "10.0.0.12/24",
+        "AllowedIPs": "10.0.0.12/32"
+    }
+}
