@@ -7,7 +7,7 @@
     "lint": "eslint ./configgenerator.js"
   },
   "devDependencies": {
-    "eslint": "~8.31.0",
-    "eslint-config-google": "~0.14.0"
+    "eslint": "8.53.0",
+    "eslint-config-google": "0.14.0"
   }
 }
